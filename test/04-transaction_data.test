@@ -1,0 +1,3 @@
+--transaction 'HASH %th WTXID %tH VERSION %tv NUM INPUTS %ti NUM OUTPUTS %to LOCKTIME %tt
+ BYTES %tL VBYTES %tl NON-SEGWIT BYTES %tn WEIGHT %tw NUMBER %tN FEE %tF BDD %tD
+ ' --end 10
