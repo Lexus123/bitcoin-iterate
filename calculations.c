@@ -78,7 +78,8 @@ s64 calculate_bdc(const struct utxo *u,
 	/* 86400 */
 	if (total_over >= 86400/2)
 		return -2; /* overflow! */
-	return (((total_over << 47) / 86400) << 17) + (total_base / 86400);
+//	return (((total_over << 47) / 86400) << 17) + (total_base / 86400);
+	return utxo_age;
 }
 
 s64 calculate_bdd(const struct utxo_map *utxo_map,

@@ -10,421 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1888af-d102-41e5-ac73-f7814b0fbc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bitcoin-iterate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitcoin-iterate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockfiles.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockfiles.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockfiles.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocksize-stats/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculations.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculations.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculations.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-hex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-htable.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-list.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-noerr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-opt-helpers.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-opt-parse.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-opt-usage.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-opt.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-rbuf.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-str.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-take.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-tal-grab-file.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-tal-path.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-tal-str.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan-tal.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/alignof/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/alignof/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/alignof/alignof.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/alignof/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/build_assert.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/test/compile_fail-expr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/test/compile_fail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/test/compile_ok.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/build_assert/test/run-BUILD_ASSERT_OR_ZERO.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/cast.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_const.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_const2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_const3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_signed-const.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_signed-sizesame.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_signed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_static-2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_static-3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_fail-cast_static.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_ok-cast_void.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/cast/test/compile_ok-static.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/check_type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/test/compile_fail-check_type.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/test/compile_fail-check_type_unsigned.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/test/compile_fail-check_types_match.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/check_type/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/compiler/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/compiler/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/compiler/compiler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/compiler/test/compile_fail-printf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/compiler/test/run-is_compile_constant.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/container_of.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/test/compile_fail-bad-type.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/test/compile_fail-types.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/test/compile_fail-var-types.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/container_of/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/endian/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/endian/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/endian/endian.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/endian/test/compile_ok-constant.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/endian/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/err/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/err/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/err/err.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/err/err.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/err/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/hash.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/test/api-hash_stable.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/hash/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/htable.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/htable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/htable_type.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/test/run-size.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/test/run-type.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/test/run-zero-hash-first-entry.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/tools/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/tools/hsearchspeed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/tools/speed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/htable/tools/stringspeed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/likely.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/likely.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/test/run-debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/likely/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/compile_ok-constant.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/helper.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-CCAN_LIST_DEBUG.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-check-corrupt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-check-nonconst.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-list_del_from-assert.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-list_prev-list_next.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-prepend_list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-single-eval.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run-with-debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/list/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/noerr/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/noerr/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/noerr/noerr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/noerr/noerr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/noerr/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/helpers.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/opt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/opt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/parse.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/compile_ok-const-arg.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-add_desc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-checkopt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-consume_words.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-correct-reporting.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-early.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-helpers.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-iter.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-no-options.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-set_alloc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run-usage.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/utils.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/test/utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/opt/usage.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/rbuf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/rbuf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/test/run-all.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/test/run-open.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/test/run-partial-read.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/test/run-term-eof.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/rbuf/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/short_types/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/short_types/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/short_types/short_types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/short_types/test/run-endian.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/short_types/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/hex/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/hex/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/hex/hex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/hex/hex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/hex/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/str.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/str.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/str_debug.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-STR_MAX_CHARS.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isalnum.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isalpha.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isascii.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isblank.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-iscntrl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isdigit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-islower.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isprint.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-ispunct.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isspace.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isupper.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-isxdigit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-strchr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-strrchr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/compile_fail-strstr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/run-STR_MAX_CHARS.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/str/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/take/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/take/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/take/take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/take/take.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/take/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/benchmark/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/benchmark/samba-allocs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/benchmark/speed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/benchmark/talloc.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file-Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file/grab_file.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file/grab_file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/grab_file/test/run-grab.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link-Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link/link.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link/link.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/link/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path-Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/path.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-basename.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-canon.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-cwd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-dirname.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-ext_off.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-is_abs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-is_dir.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-is_file.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-join.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-pushd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-readlink.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-rel.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-simplify.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/path/test/run-split.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-basename.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-canon.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-cwd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-dirname.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-ext_off.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-is_abs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-is_dir.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-is_file.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-join.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-pushd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-readlink.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-rel.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-simplify.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/path/test/run-split.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack-Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack/stack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack/stack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/stack/test/run-stack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str-Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/str.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/str.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/test/helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/test/run-string.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/test/run-strreg.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/test/run-take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/str/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/test/helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/test/run-string.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/test/run-strreg.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/test/run-take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/str/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/tal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/tal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/talloc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/talloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-array.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-count.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-destructor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-expand.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-free.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-named-debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-named-nolabels.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-named.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-overflow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-steal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run-take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/talloc/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-array.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-count.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-destructor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-expand.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-free.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-named-debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-named-nolabels.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-named.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-overflow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-steal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run-take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/talloc/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-allocfail.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-array.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-count.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-destructor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-expand.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-free.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-groups-grow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-iter.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-named-debug.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-named-nolabels.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-named.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-notifier.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-overflow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-resizez.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-steal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-take.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run-test-backend.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/tal/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-cast_if_type-promotable.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb-int.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_cast-multi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_cast.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_postargs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_fail-typesafe_cb_preargs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-NULL.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-undefined.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb-vars.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/compile_ok-typesafe_cb_cast.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/test/run.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/ccan/typesafe_cb/typesafe_cb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/licenses/BSD-MIT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/licenses/CC0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/licenses/GPL-2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/licenses/LGPL-2.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/licenses/LGPL-3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/tools/configurator/configurator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ccan/tools/configurator/configurator.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configurator.out.dSYM/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configurator.out.dSYM/Contents/Resources/DWARF/configurator.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/bitcoin-iterate.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/bitcoin-iterate.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/format.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/format.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/format.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterate.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterate.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parse.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parse.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parse.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_tests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/01-block_number.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/01-block_number.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/02-block_data.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/02-block_data.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/03-transaction_input_count.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/03-transaction_input_count.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/04-transaction_data.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/04-transaction_data.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/05-input.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/05-input.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/06-output.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/06-output.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/07-start.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/07-start.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/08-utxo_start_offset.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/08-utxo_start_offset.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/09-utxo.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/09-utxo.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/10-segwit.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/10-segwit.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/print_all.utxo-period=1.end=5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/scripts/print_all" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/cache/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/test_output/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utxo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utxo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utxo.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculations.c" beforeDir="false" afterPath="$PROJECT_DIR$/calculations.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -433,7 +20,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utxo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-609">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/format.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="340" column="37" lean-forward="true" selection-start-line="340" selection-start-column="37" selection-end-line="340" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calculations.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/types.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -475,7 +99,6 @@
         <option value="$PROJECT_DIR$/format.c" />
         <option value="$PROJECT_DIR$/ccan/ccan/endian/endian.h" />
         <option value="$PROJECT_DIR$/parse.c" />
-        <option value="$PROJECT_DIR$/calculations.c" />
         <option value="$PROJECT_DIR$/utxo.c" />
         <option value="$PROJECT_DIR$/block.c" />
         <option value="$PROJECT_DIR$/cache.c" />
@@ -502,9 +125,11 @@
         <option value="$PROJECT_DIR$/ccan/ccan/tal/grab_file/grab_file.c" />
         <option value="$PROJECT_DIR$/ccan/ccan/tal/benchmark/speed.c" />
         <option value="$PROJECT_DIR$/ccan/ccan/tal/benchmark/samba-allocs.c" />
+        <option value="$PROJECT_DIR$/calculations.c" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -515,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -533,18 +159,10 @@
               <item name="ccan" type="462c0819:PsiDirectoryNode" />
               <item name="ccan" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bitcoin-iterate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin-iterate" type="462c0819:PsiDirectoryNode" />
-              <item name="ccan" type="462c0819:PsiDirectoryNode" />
-              <item name="ccan" type="462c0819:PsiDirectoryNode" />
-              <item name="tal" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,23 +196,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546268009515</updated>
-      <workItem from="1546268013187" duration="4439000" />
+      <workItem from="1546268013187" duration="4466000" />
+      <workItem from="1546439605574" duration="1789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4439000" />
+    <option name="totallyTimeSpent" value="6255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -602,10 +218,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22165605" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,13 +236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/types.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -671,16 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculations.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#78#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/format.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -694,13 +297,6 @@
     <entry file="file://$PROJECT_DIR$/io.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/io.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parse.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -711,24 +307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utxo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/format.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -747,13 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utxo.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -823,13 +398,6 @@
           <folding>
             <element signature="e#2573#2597#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculations.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -982,6 +550,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ccan/ccan/tal/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1228">
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utxo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utxo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculations.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="340" column="37" lean-forward="true" selection-start-line="340" selection-start-column="37" selection-end-line="340" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculations.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
