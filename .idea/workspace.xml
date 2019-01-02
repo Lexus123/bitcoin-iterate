@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1888af-d102-41e5-ac73-f7814b0fbc8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculations.c" beforeDir="false" afterPath="$PROJECT_DIR$/calculations.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcoin-iterate" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin-iterate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format.c" beforeDir="false" afterPath="$PROJECT_DIR$/format.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format.o" beforeDir="false" afterPath="$PROJECT_DIR$/format.o" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,29 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/format.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="340" column="37" lean-forward="true" selection-start-line="340" selection-start-column="37" selection-end-line="340" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculations.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/types.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="345">
+              <caret line="332" column="15" selection-start-line="332" selection-start-column="15" selection-end-line="332" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -96,7 +79,6 @@
         <option value="$PROJECT_DIR$/iterate.h" />
         <option value="$PROJECT_DIR$/cache.h" />
         <option value="$PROJECT_DIR$/utxo.h" />
-        <option value="$PROJECT_DIR$/format.c" />
         <option value="$PROJECT_DIR$/ccan/ccan/endian/endian.h" />
         <option value="$PROJECT_DIR$/parse.c" />
         <option value="$PROJECT_DIR$/utxo.c" />
@@ -126,6 +108,7 @@
         <option value="$PROJECT_DIR$/ccan/ccan/tal/benchmark/speed.c" />
         <option value="$PROJECT_DIR$/ccan/ccan/tal/benchmark/samba-allocs.c" />
         <option value="$PROJECT_DIR$/calculations.c" />
+        <option value="$PROJECT_DIR$/format.c" />
       </list>
     </option>
   </component>
@@ -197,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546268009515</updated>
       <workItem from="1546268013187" duration="4466000" />
-      <workItem from="1546439605574" duration="1789000" />
+      <workItem from="1546439605574" duration="2554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6255000" />
+    <option name="totallyTimeSpent" value="7020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -575,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/types.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculations.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -592,17 +568,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/format.c">
+    <entry file="file://$PROJECT_DIR$/types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="340" column="37" lean-forward="true" selection-start-line="340" selection-start-column="37" selection-end-line="340" selection-end-column="37" />
+        <state relative-caret-position="236">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculations.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        <state relative-caret-position="433">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="332" column="15" selection-start-line="332" selection-start-column="15" selection-end-line="332" selection-end-column="15" />
         </state>
       </provider>
     </entry>

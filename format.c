@@ -329,6 +329,9 @@ void print_format(const char *format,
       case 't':
 	printf("%u", u->timestamp);
 	break;
+	  case 'b':
+	 printf("%u", b->bh.timestamp);
+	 break;
       case 'N':
 	printf("%u", u->height);
 	break;
