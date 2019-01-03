@@ -1,0 +1,76 @@
+Usage: ./bitcoin-iterate 
+Valid block, transaction, input, output, and utxo format:
+  <literal>: unquoted
+  %bl: block length
+  %bv: block version
+  %bp: block prev hash (big-endian)
+  %bm: block merkle hash
+  %bs: block timestamp
+  %bt: block target
+  %bn: block nonce
+  %bc: block transaction count
+  %bh: block hash (big-endian)
+  %bN: block height
+  %bH: block header (hex string)
+Valid transaction, input or output format:
+  %tS: transaction is segwit
+  %th: transaction txid (big endian)
+  %tH: transaction wtxid (big endian)
+  %tv: transaction version
+  %ti: transaction input count
+  %to: transaction output count
+  %tt: transaction locktime
+  %tL: transaction total length (bytes)
+  %tl: transaction virtual length (vbytes)
+  %tn: transaction length (non-segwit) (bytes)
+  %tw: transaction weight (in sipa)
+  %tN: transaction number
+  %tF: transaction fee paid
+  %tD: transaction bitcoin days destroyed
+  %tX: transaction in hex
+Valid input format:
+  %ia: input amount
+  %ih: input hash
+  %ii: input index
+  %il: input script length
+  %is: input script as a hex string
+  %iq: input nSequence
+  %iN: input number
+  %iX: input in hex
+  %iB: input UTXO block number (0 for coinbase)
+  %iT: input UTXO transaction number (-1 for coinbase)
+  %ip: input payment guess: same (2) or different (1) owner, or (0) unknown
+Valid output format:
+  %oa: output amount
+  %ol: output script length
+  %os: output script as a hex string
+  %oN: output number
+  %oU: output is unspendable (0 if spendable)
+  %oX: output in hex
+Valid utxo format:
+  %uh: utxo transaction hash
+  %un: utxo output index
+  %ut: utxo timestamp
+  %uN: utxo height
+  %ua: utxo amount
+  %ul: output script length
+  %us: output script as a hex string
+  %uC: utxo bitcoin days created
+
+-h|--help                 Display help message
+--block <arg>             Format to print for each block
+--tx|--transaction <arg>  Format to print for each transaction
+--input <arg>             Format to print for each transaction input
+--output <arg>            Format to print for each transaction output
+--utxo <arg>              Format to print for each UTXO
+--utxo-period <arg>       Loop over UTXOs every this many blocks
+--progress <arg>          Print . to stderr this many times
+--no-mmap                 Don't mmap the block files
+--quiet|-q                Don't output progress information
+--testnet|-t              Look for testnet3 blocks
+--blockdir <arg>          Block directory instead of ~/.bitcoin/[testnet3/]blocks
+--end-hash <arg>          Best blockhash to use instead of longest chain.
+--start-hash <arg>        Blockhash to start at instead of genesis.
+--start <arg>             Block number to start instead of genesis.
+--end <arg>               Block number to end at instead of longest chain.
+--cache <arg>             Cache for multiple runs.
