@@ -9,10 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c1888af-d102-41e5-ac73-f7814b0fbc8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/format.c" beforeDir="false" afterPath="$PROJECT_DIR$/format.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/format.o" beforeDir="false" />
-    </list>
+    <list default="true" id="2c1888af-d102-41e5-ac73-f7814b0fbc8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/format.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="120">
               <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
             </state>
           </provider>
@@ -112,7 +109,7 @@
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -179,15 +176,15 @@
       <option name="presentableId" value="Default" />
       <updated>1546268009515</updated>
       <workItem from="1546268013187" duration="4466000" />
-      <workItem from="1546439605574" duration="3009000" />
+      <workItem from="1546439605574" duration="3282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7475000" />
+    <option name="totallyTimeSpent" value="7748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
@@ -583,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/format.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="120">
           <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
         </state>
       </provider>
